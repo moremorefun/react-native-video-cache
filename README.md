@@ -1,4 +1,4 @@
-# react-native-video-cache
+# @vino4all/react-native-video-cache
 
 Forked from https://github.com/zhigang1992/react-native-video-cache
 
@@ -11,16 +11,16 @@ Use following libraries to do the heavy lifting.
 
 ## Getting started
 
-`$ yarn add https://github.com/vino4all/react-native-video-cache.git`
+`$ yarn add @vino4all/react-native-video-cache`
 
 ### Mostly automatic installation
 
-`$ react-native link https://github.com/vino4all/react-native-video-cache.git`
+`$ react-native link @vino4all/react-native-video-cache`
 
 ## Usage
 
 ```javascript
-import convertToProxyURL from 'react-native-video-cache';
+import convertToProxyURL from '@vino4all/react-native-video-cache';
 ...
 <Video source={{uri: convertToProxyURL(originalURL)}} />
 ```
@@ -52,7 +52,7 @@ import com.danikula.videocache.file.FileNameGenerator;
 ```
 
 ```javascript
-import convertToProxyURL, {setConfig} from 'react-native-video-cache';
+import convertToProxyURL, {setConfig} from '@vino4all/react-native-video-cache';
 ...
 
 const maxCacheSize = 1024 * 1024 * 1024; // 1GB

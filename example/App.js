@@ -1,6 +1,6 @@
 import React, {Component, useEffect, useState} from "react";
 import { StyleSheet, Text, View } from "react-native";
-import convertToCache, {convertAsync} from "react-native-video-cache";
+import convertToCache, {convertAsync} from "@vino4all/react-native-video-cache";
 
 export default function App() {
   const url =
@@ -11,7 +11,7 @@ export default function App() {
   }, [])
   return (
     <View style={styles.container}>
-      <Text style={styles.welcome}>☆Original URL☆</Text>
+      <Text style={styles.welcome}>Original URL</Text>
       <Text style={styles.instructions}>{url}</Text>
       <Text style={styles.welcome}>☆Proxy URL for Video Component☆</Text>
       <Text style={styles.instructions}>{convertToCache(url)}</Text>

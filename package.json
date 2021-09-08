@@ -1,25 +1,24 @@
 {
-  "name": "react-native-video-cache",
+  "name": "@vino4all/react-native-video-cache",
   "title": "React Native Video Cache",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Boost performance on online video loading and caching",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhigang1992/react-native-video-cache.git",
-    "baseUrl": "https://github.com/zhigang1992/react-native-video-cache"
+    "url": "git+https://github.com/vino4all/react-native-video-cache.git",
+    "baseUrl": "https://github.com/vino4all/react-native-video-cache"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Kyle Fang",
-    "email": "zhigang1992@gmail.com"
+    "name":"Vinothkumar Arputharaj", 
+    "email": "vino4all@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -27,5 +26,15 @@
   "devDependencies": {
     "react": "^16.8.3",
     "react-native": "^0.59.10"
+  },
+  "bugs": {
+    "url": "https://github.com/vino4all/react-native-video-cache/issues"
+  },
+  "homepage": "https://github.com/vino4all/react-native-video-cache#readme",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
