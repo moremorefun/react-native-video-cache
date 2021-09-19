@@ -1,10 +1,10 @@
 {
   "name": "@vino4all/react-native-video-cache",
   "title": "React Native Video Cache",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Boost performance on online video loading and caching",
   "main": "index.js",
-  "types": "index.d.ts",
+  "types": "types/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vino4all/react-native-video-cache.git",
