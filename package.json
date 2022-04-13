@@ -1,5 +1,5 @@
 {
-  "name": "@vino4all/react-native-video-cache",
+  "name": "@moremorefun/react-native-video-cache",
   "title": "React Native Video Cache",
   "version": "2.0.5",
   "description": "Boost performance on online video loading and caching",
@@ -7,8 +7,8 @@
   "types": "types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vino4all/react-native-video-cache.git",
-    "baseUrl": "https://github.com/vino4all/react-native-video-cache"
+    "url": "git+https://github.com/moremorefun/react-native-video-cache.git",
+    "baseUrl": "https://github.com/moremorefun/react-native-video-cache"
   },
   "keywords": [
     "react-native"
@@ -28,9 +28,9 @@
     "react-native": "^0.59.10"
   },
   "bugs": {
-    "url": "https://github.com/vino4all/react-native-video-cache/issues"
+    "url": "https://github.com/moremorefun/react-native-video-cache/issues"
   },
-  "homepage": "https://github.com/vino4all/react-native-video-cache#readme",
+  "homepage": "https://github.com/moremorefun/react-native-video-cache#readme",
   "directories": {
     "example": "example"
   },
