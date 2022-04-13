@@ -3,11 +3,11 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name         = "@moremorefun/react-native-video-cache"
+  s.name         = "m-react-native-video-cache"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.description  = <<-DESC
-                  @moremorefun/react-native-video-cache
+                  m-react-native-video-cache
                    DESC
   s.homepage     = "https://github.com/moremorefun/react-native-video-cache"
   s.license      = "MIT"
