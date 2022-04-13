@@ -1,7 +1,7 @@
 {
   "name": "m-react-native-video-cache",
   "title": "React Native Video Cache",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "Boost performance on online video loading and caching",
   "main": "index.js",
   "types": "types/index.d.ts",
